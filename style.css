@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application {
+    background-image: linear-gradient(45deg, #010056, #4543c4, #54d7ff, #32ffd9);
+    width: 400px;
+    padding: 30px 20px 20px;
+    border-radius: 20px;
+}
+
+.search-bar {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .search {
+    flex: 1;
+    background: #e3f9ff;
+    border: 0;
+    outline: 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+form button {
+    flex: 0 0 50px;
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #e3f9ff;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+form button img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-picture {
+    margin-top: 30px;
+}
+
+.temperature {
+    font-size: 60px;
+    color: #e3f9ff;
+    margin-bottom: 15px;
+}
+
+.place {
+    font-size: 50px;
+    color: #e3f9ff;
+}
+
+
+.footer {
+    margin: 45px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wind {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity-picture img{
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.percents {
+    font-size: 25px;
+}
+
+.humidity-text {
+    margin-top: 5px;
+    font-size: 15px;
+}
